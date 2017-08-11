@@ -1,7 +1,6 @@
 # The hello world example
 
 def main():
-	print("Hello World!")
-
+    print("Hello World!")
 
 main()
