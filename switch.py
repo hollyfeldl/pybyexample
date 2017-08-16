@@ -24,7 +24,7 @@ def main():
     if datetime.today().weekday() in [calendar.SATURDAY, calendar.SUNDAY]:
         print("It's the weekend")
     else:
-        print("IT's the weekday")
+        print("It's the weekday")
 
     # the Go example reduces to an if-else
     if datetime.now().hour < 12:
