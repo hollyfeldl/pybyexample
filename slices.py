@@ -21,4 +21,30 @@ def main():
 
     print("apd:", s)
 
+    # copy the string
+    c = s
+    print("cpy:", c)
+
+    # take a slice
+    l = s[2:5]
+    print("sl1:", l)
+
+    l = s[:5]
+    print("sl2:", l)
+
+    l = s[2:]
+    print("sl3:", l)
+
+    t = "ghi"
+    print("dcl:", t)
+
+    twoD = [None] * 3
+    for i in range (0,3):
+        innerLen = i + 1
+        twoD[i] = [None] * innerLen
+        for j in range (0,innerLen):
+            twoD[i][j] = i + j
+
+    print("2d: ", twoD)
+
 main()
