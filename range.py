@@ -19,6 +19,7 @@ def main():
     for k in kvs:
         print("key:", k)
 
+    # print out the unicode values for the string
     i = 0
     for c in "python":
         print(i, c, ord(c))
