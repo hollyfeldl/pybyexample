@@ -1,15 +1,12 @@
 # functions example
 
 # since there is no typing needed will just add
+
 def plus( a, b):
 	return a + b
 
 def plusPlus( a, b, c):
     return a + b + c
-
-# a function that returns a tuple
-def polyFacts( l, h):
-    return (2*l)+(2*h), l*h
 
 def main():
 
@@ -20,19 +17,15 @@ def main():
     res = plus("Pyt","hon")
     print("'Pyt'+'hon' =", res)
 
+    # add another parm
+    res = plusPlus(1, 2, 3)
+    print("1+2+3 =", res)
+
     # treat both sides like a tuple, need a comma on the right 
     # side so Python treats the output like a tuple
+    # this becomes handy with multiple return values
     (res,) = (plusPlus(1, 2, 3),)
     print("Tuple - 1+2+3 =", res)
-
-    # get the results of a tuple, comma not needed hear because 
-    # the output is a tuple by default
-    (perm, area,) = (polyFacts( 2, 3))
-    print("Tuple - Perm:", perm, "Area:", area)
-
-    # you can do it the variable assignment the Go way as well
-    perm, area = polyFacts( 2, 3)
-    print("NoTuple - Perm:", perm, "Area:", area)
 
 main()
 
