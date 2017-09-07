@@ -16,8 +16,8 @@ def main():
     print(a)
     print(b)
 
-    # unlike Go, in Python you have to provide all the expected Vars
-    blank, c = vals()
+    # Python is like Go...
+    _, c = vals()
     print(c)
 
     # For a little extra fun... 
