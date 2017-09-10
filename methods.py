@@ -26,5 +26,6 @@ def main():
     print("area: ", r.area())
     print("perim:", r.perim())
 
-
+    print ("rect: ", r)
+    
 main()
