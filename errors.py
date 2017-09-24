@@ -11,6 +11,17 @@ def f1(arg):
     
     return arg + 3
 
+# define a custom error
+
+class ArgError(Exception):
+    pass
+
+def f2(arg):
+    if arg == 42:
+        raise ArgError("{0} - can't work with it".format(arg))
+
+    return arg + 3
+
 def main():
 
     for i in [7, 42]:
@@ -18,5 +29,13 @@ def main():
             print("f1 worked:", f1(i))
         except ValueError as err:
             print("f1 failed:", err)
+
+    for i in [7, 42]:
+        try:
+            print("f2 worked:", f2(i))
+        except ArgError as err:
+            print("f2 failed:", err)
+
+    # Python doesn't pass variables for errors 
 
 main()
