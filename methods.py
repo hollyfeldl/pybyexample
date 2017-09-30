@@ -28,4 +28,5 @@ def main():
 
     print ("rect: ", r)
     
-main()
+if __name__ == '__main__':
+    main()

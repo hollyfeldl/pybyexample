@@ -20,4 +20,5 @@ def main():
     f = 'short'
     print(f)
 
-main()
+if __name__ == '__main__':
+    main()

@@ -38,4 +38,5 @@ def main():
 
     # Python doesn't pass variables for errors 
 
-main()
+if __name__ == '__main__':
+    main()

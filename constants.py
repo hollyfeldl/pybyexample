@@ -17,4 +17,5 @@ def main():
 
     print(math.sin(n))
 
-main()
+if __name__ == '__main__':
+    main()

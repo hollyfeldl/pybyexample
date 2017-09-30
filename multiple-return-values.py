@@ -30,4 +30,5 @@ def main():
     perm, area = polyFacts( 2, 3)
     print("NoTuple - Perm:", perm, "Area:", area)
 
-main()
+if __name__ == '__main__':
+    main()

@@ -8,4 +8,5 @@ def main():
     print(True | False)
     print(not True)
 
-main()
+if __name__ == '__main__':
+    main()

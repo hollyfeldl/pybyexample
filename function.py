@@ -27,5 +27,6 @@ def main():
     (res,) = (plusPlus(1, 2, 3),)
     print("Tuple - 1+2+3 =", res)
 
-main()
+if __name__ == '__main__':
+    main()
 

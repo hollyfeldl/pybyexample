@@ -34,5 +34,6 @@ def main():
 
     # punt on interfaces for now
 
-main()
+if __name__ == '__main__':
+    main()
 

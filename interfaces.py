@@ -50,5 +50,6 @@ def main():
     r.measure()
     c.measure()
 
-main()
+if __name__ == '__main__':
+    main()
 

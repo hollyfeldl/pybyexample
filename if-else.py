@@ -18,4 +18,5 @@ def main():
     else:
         print(num, "has multiple digits") 
 
-main()
+if __name__ == '__main__':
+    main()

@@ -31,5 +31,6 @@ def main():
     s.age = 51
     print(s.age)
 
-main()
+if __name__ == '__main__':
+    main()
 

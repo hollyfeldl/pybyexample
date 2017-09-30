@@ -11,5 +11,6 @@ def main():
     print(fact(7))
 
 
-main()
+if __name__ == '__main__':
+    main()
 

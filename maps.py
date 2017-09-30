@@ -38,5 +38,6 @@ def main():
     n = {"foo": 1, "bar": 2}
     print("map:", n)
 
-main()
+if __name__ == '__main__':
+    main()
 

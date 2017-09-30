@@ -35,4 +35,5 @@ def main():
     print("2d (NP): ", twoDNP)
 
 
-main()
+if __name__ == '__main__':
+    main()

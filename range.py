@@ -25,4 +25,5 @@ def main():
         print(i, c, ord(c))
         i += 1
 
-main()
+if __name__ == '__main__':
+    main()

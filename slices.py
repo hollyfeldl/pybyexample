@@ -47,4 +47,5 @@ def main():
 
     print("2d: ", twoD)
 
-main()
+if __name__ == '__main__':
+    main()
