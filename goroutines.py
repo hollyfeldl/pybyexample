@@ -23,14 +23,14 @@ def main():
     # first the direct calls to function f
     f("direct")
 
+    # set up event loop
     loop = asyncio.get_event_loop()
+
+    # have a generator for the event loop
     to_do = [fio(i) for i in range(0,3)]
     wait_coro = asyncio.wait(to_do)
     res, _ = loop.run_until_complete(wait_coro)
     loop.close()
-
-    print(len(res))
-
 
 if __name__ == "__main__":
     main()
