@@ -32,6 +32,8 @@ def main():
     res, _ = loop.run_until_complete(wait_coro)
     loop.close()
 
+    print("The example goroutines.py needs work")
+
 if __name__ == "__main__":
     main()
 
