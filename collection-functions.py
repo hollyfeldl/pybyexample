@@ -40,8 +40,6 @@ def GoMap(vs, f):
 def main():
 
 	strs = ["peach", "apple", "pear", "plum"]
-	strs_nil = ["peach", "apple", "", "pear", "plum"]
-
 
 	print(Index(strs, "pear"))
 	print(Include(strs, "grape"))
