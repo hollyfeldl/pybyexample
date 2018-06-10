@@ -7,8 +7,7 @@ class person:
         self.age = age
     def __repr__(self):
         # make the representation look like Go structs
-        return ('{%s %s}' 
-                % (repr(self.name), repr(self.age)))
+        return ('{{{0} {1}}}'.format(repr(self.name), repr(self.age)))
 
 def main():
 
