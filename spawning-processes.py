@@ -48,7 +48,5 @@ def main():
 		print("Command generated error...")
 		print("{0}".format(lsOut[1]))		
 
-
-
 if __name__ == "__main__":
 	main()
